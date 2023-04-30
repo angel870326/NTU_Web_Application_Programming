@@ -16,6 +16,7 @@ yarn add bootstrap
 yarn add typed.js
 yarn add glightbox
 yarn add swiper
+yarn add isotope-layout
 yarn start
 ```
 
