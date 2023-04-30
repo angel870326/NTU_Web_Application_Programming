@@ -15,6 +15,7 @@ cd YOUR_APP_NAME
 yarn add bootstrap
 yarn add typed.js
 yarn add glightbox
+yarn add swiper
 yarn start
 ```
 
