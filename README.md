@@ -14,6 +14,7 @@ yarn create react-app YOUR_APP_NAME
 cd YOUR_APP_NAME
 yarn add bootstrap
 yarn add typed.js
+yarn add glightbox
 yarn start
 ```
 
