@@ -9,6 +9,10 @@
 
 
 ```
-cd /Users/angelwang/Desktop/台大/ 碩二下/4_Web\ APP\ 開發/HW/r10722024_hw3
+cd /Users/angelwang/Desktop/台大/碩二下/4_Web\ APP\ 開發/HW/
+```
+Create-react-app
+```
+npx create-react-app YOUR_APP_NAME
 ```
 
