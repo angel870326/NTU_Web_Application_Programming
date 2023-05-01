@@ -50,9 +50,19 @@ yarn add eslint --dev
 npm init @eslint/config
 npm install --save-dev eslint-config-prettier
 ```
+prettier, Git hooks
 ```
 yarn add --dev --exact prettier
+echo {}> .prettierrc.json
+touch .prettierignore
+yarn add --dev husky lint-staged
+git init
+npx husky install
+npm pkg set scripts.prepare="husky install"
+npx husky add .husky/pre-commit "npx lint-staged"
+
 ```
+https://prettier.io/docs/en/install.html
 
 
 
