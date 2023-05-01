@@ -31,3 +31,13 @@ yarn next build
 yarn next start
 ```
 
+### Create Project
+```
+cd PATH
+cd YOUR_APP_NAME
+yarn init
+yarn add next react react-dom
+yarn add @mui/material @emotion/react @emotion/styled
+```
+
+
