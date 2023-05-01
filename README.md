@@ -32,15 +32,27 @@ yarn next start
 ```
 
 ### Create Project
+
 ```
 cd PATH
 cd YOUR_APP_NAME
 yarn init
+```
+dependencies
+```
 yarn add next react react-dom
 yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
-yarn add --dev --exact prettier
-
 ```
+devDependencies
+```
+yarn add eslint --dev
+npm init @eslint/config
+npm install --save-dev eslint-config-prettier
+```
+```
+yarn add --dev --exact prettier
+```
+
 
 
