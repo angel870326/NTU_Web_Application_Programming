@@ -4,14 +4,14 @@
 
 ```
 cd PATH
-yarn create react-app r10722024_hw3
-cd r10722024_hw3
+yarn create react-app YOUR_APP_NAME
+cd YOUR_APP_NAME
 yarn add bootstrap
 yarn add typed.js
 ```
 
 
-把繳交的檔案拉進去 r10722024_hw3， public 和 src 資料夾直接取代即可。
+把繳交的檔案拉進去 YOUR_APP_NAME， public 和 src 資料夾直接取代即可。
 
 
 最後在終端機執行：
