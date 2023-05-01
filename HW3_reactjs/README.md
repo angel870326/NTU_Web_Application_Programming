@@ -1,6 +1,6 @@
 # Guide
 
-在終端機執行以下程式碼：
+Step 1: 在終端機執行以下程式碼：
 
 ```
 cd PATH
@@ -11,10 +11,10 @@ yarn add typed.js
 ```
 
 
-把繳交的檔案拉進去 YOUR_APP_NAME， public 和 src 資料夾直接取代即可。
+Step 2: 把 public 和 src 資料夾拉進去 YOUR_APP_NAME，直接取代即可。
 
 
-最後在終端機執行：
+Step 3: 最後在終端機執行：
 
 ```
 yarn start
