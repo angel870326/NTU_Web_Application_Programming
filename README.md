@@ -21,3 +21,13 @@ yarn add typed.js
 yarn start
 ```
 
+## Final Project
+### Create Project
+```
+yarn create next-app
+cd YOUR_APP_NAME
+yarn dev
+yarn next build
+yarn next start
+```
+
