@@ -38,6 +38,8 @@ cd YOUR_APP_NAME
 yarn init
 yarn add next react react-dom
 yarn add @mui/material @emotion/react @emotion/styled
+yarn add @fontsource/roboto @mui/icons-material
+
 ```
 
 
