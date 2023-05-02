@@ -46,9 +46,24 @@ yarn add @fontsource/roboto @mui/icons-material
 ```
 devDependencies
 ```
-yarn add eslint --dev
+yarn add -D eslint
+yarn eslint --init
+yarn add -D eslint-plugin-react@latest
+yarn add --dev --exact prettier
+yarn add -D eslint-config-prettier
+yarn add -D eslint-plugin-prettier
+yarn add -D eslint-plugin-jest
+
+yarn add eslint-plugin-jsx-a11y --dev
+yarn add eslint-plugin-import --dev
+yarn add eslint-plugin-react-hooks --dev
+
+
 npm init @eslint/config
 npm install --save-dev eslint-config-prettier
+
+eslint-plugin-import
+eslint-plugin-react-hooks
 ```
 prettier
 ```
