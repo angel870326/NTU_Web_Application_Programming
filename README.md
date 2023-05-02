@@ -32,11 +32,12 @@ yarn create next-app
 ### Add dependencies
 ```
 cd YOUR_APP_NAME
-yarn add @mui/material @emotion/react @emotion/styled
-yarn add @fontsource/roboto @mui/icons-material
+yarn add @material-ui/core @material-ui/icons
+yarn add @fontsource/roboto
 yarn add classnames
 yarn add prop-types
 ```
+https://v4.mui.com/getting-started/installation/
 
 ### Add devDependencies
 ```
