@@ -34,6 +34,8 @@ yarn add @fontsource/roboto @mui/icons-material
 yarn add --dev --exact prettier
 yarn add -D eslint-config-prettier
 echo {}> .prettierrc.json
+touch .prettierignore
+
 
 
 
