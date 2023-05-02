@@ -24,6 +24,7 @@ yarn start
 ## Final Project
 ### Create Project
 ```
+cd PATH
 yarn create next-app
 cd YOUR_APP_NAME
 yarn dev
