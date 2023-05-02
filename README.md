@@ -55,7 +55,6 @@ prettier, Git hooks
 yarn add --dev --exact prettier
 echo {}> .prettierrc.json
 touch .prettierignore
-yarn add --dev husky lint-staged
 
 ```
 https://prettier.io/docs/en/install.html
