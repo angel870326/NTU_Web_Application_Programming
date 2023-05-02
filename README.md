@@ -52,6 +52,9 @@ yarn next build
 yarn next start
 ```
 
+git config --global user.email "angel870326@gmail.com"
+git config --global user.name "angel870326"
+
 ### Create Project
 
 yarn add -D eslint-plugin-prettier
