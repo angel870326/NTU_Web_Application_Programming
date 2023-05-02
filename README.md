@@ -22,23 +22,31 @@ yarn start
 ```
 
 ## Final Project
-### Create Project
+
+### Create project
 ```
 cd PATH
 yarn create next-app
+```
 
+### Add dependencies
+```
 cd YOUR_APP_NAME
 yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
+```
 
+### Add devDependencies
+```
 yarn add --dev --exact prettier
 yarn add -D eslint-config-prettier
 echo {}> .prettierrc.json
 touch .prettierignore
+yarn add --dev @testing-library/react
+```
 
-
-
-
+### Add devDependencies
+```
 yarn dev
 yarn next build
 yarn next start
@@ -46,45 +54,10 @@ yarn next start
 
 ### Create Project
 
-```
-cd PATH
-cd YOUR_APP_NAME
-yarn init
-```
-dependencies
-```
-yarn add next react react-dom
-yarn add @mui/material @emotion/react @emotion/styled
-yarn add @fontsource/roboto @mui/icons-material
-```
-devDependencies
-```
-
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
 
-
-
-yarn add -D eslint
-yarn eslint --init
-yarn add --dev --exact prettier
-yarn add -D eslint-config-prettier
-yarn add -D eslint-plugin-prettier
-yarn add -D eslint-plugin-jest
-
-
-
-npm init @eslint/config
-npm install --save-dev eslint-config-prettier
-
-```
-prettier
-```
-
-touch .prettierignore
-
-```
-https://prettier.io/docs/en/install.html
+Source: https://prettier.io/docs/en/install.html
 
 
 
