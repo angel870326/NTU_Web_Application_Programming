@@ -32,8 +32,9 @@ yarn create next-app
 ### Add dependencies
 ```
 cd YOUR_APP_NAME
-yarn add @material-ui/core @material-ui/icons
+yarn add @material-ui/core @material-ui/icons @material-ui/styles
 yarn add @fontsource/roboto
+yarn add styled-components
 yarn add classnames
 yarn add prop-types
 ```
