@@ -36,7 +36,6 @@ yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
 yarn add @mui/styles
 yarn add styled-components
-yarn add classnames
 yarn add prop-types
 ```
 https://v4.mui.com/getting-started/installation/
