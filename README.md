@@ -36,7 +36,6 @@ yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
 yarn add @mui/styles
 yarn add @mui/x-data-grid
-yarn add styled-components
 yarn add prop-types
 ```
 https://v4.mui.com/getting-started/installation/
@@ -61,6 +60,8 @@ git config --global user.email "angel870326@gmail.com"
 git config --global user.name "angel870326"
 
 ### Create Project
+
+yarn add styled-components
 
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
