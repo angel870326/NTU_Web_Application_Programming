@@ -36,6 +36,7 @@ yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
 yarn add @mui/styles
 yarn add @mui/x-data-grid
+yarn add @mui/x-data-grid-generator
 yarn add prop-types
 ```
 https://v4.mui.com/getting-started/installation/
