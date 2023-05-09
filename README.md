@@ -35,6 +35,7 @@ cd YOUR_APP_NAME
 yarn add @mui/material @emotion/react @emotion/styled
 yarn add @fontsource/roboto @mui/icons-material
 yarn add @mui/styles
+yarn add @mui/x-data-grid
 yarn add styled-components
 yarn add prop-types
 ```
