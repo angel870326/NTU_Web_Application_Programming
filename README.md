@@ -18,10 +18,12 @@ yarn add typed.js
 // yarn add glightbox
 // yarn add swiper
 // yarn add isotope-layout
+yarn add axios jquery
 yarn start
 ```
 
 ## Final Project
+https://github.com/angel870326/animal-cloud-adoption
 
 ### Create project
 ```
@@ -38,7 +40,7 @@ yarn add @mui/styles
 yarn add @mui/x-data-grid
 yarn add prop-types
 ```
-https://v4.mui.com/getting-started/installation/
+Reference: https://v4.mui.com/getting-started/installation/
 
 ### Add devDependencies
 ```
@@ -48,25 +50,25 @@ echo {}> .prettierrc.json
 touch .prettierignore
 yarn add --dev @testing-library/react
 ```
+Reference: https://prettier.io/docs/en/install.html
 
-### Add devDependencies
+### Run
 ```
 yarn dev
 yarn next build
 yarn next start
 ```
 
+### Not used
+```
 git config --global user.email "angel870326@gmail.com"
 git config --global user.name "angel870326"
-
-### Create Project
-
 yarn add styled-components
-
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
+```
 
-Source: https://prettier.io/docs/en/install.html
+
 
 
 
