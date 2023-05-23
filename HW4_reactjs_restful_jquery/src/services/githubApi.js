@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = 'https://api.github.com';
-const ACCESS_TOKEN = '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'; 
+const ACCESS_TOKEN = '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'; 
 
 // Set the access token as a default Authorization header
 axios.defaults.headers.common['Authorization'] = `Bearer ${ACCESS_TOKEN}`;
