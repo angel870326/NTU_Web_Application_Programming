@@ -21,9 +21,10 @@ yarn start
 
 # RESTful API & JQuery 
 
-RESTful API (token valid until June 22, 2023): <br>
+RESTful API: <br>
 src/services/githubApi.js<br>
 src/GitHubProfile.jsx<br>
+* token valid until June 22, 2023
 
 JQuery:<br>
 src/components/SubscribeButton.jsx<br>
