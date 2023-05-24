@@ -41,7 +41,11 @@ yarn add @mui/x-data-grid
 yarn add prop-types
 yarn add react-countup
 ```
-Reference: https://v4.mui.com/getting-started/installation/
+Reference:
+1. Mui: https://v4.mui.com/getting-started/installation/
+2. react-countup: https://www.npmjs.com/package/react-countup
+3. react-countup with next 13 issue fixed (@AndjelaRis): https://github.com/glennreyes/react-countup/issues/805
+
 
 ### Add devDependencies
 ```
