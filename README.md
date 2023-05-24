@@ -39,6 +39,7 @@ yarn add @fontsource/roboto @mui/icons-material
 yarn add @mui/styles
 yarn add @mui/x-data-grid
 yarn add prop-types
+yarn add react-countup
 ```
 Reference: https://v4.mui.com/getting-started/installation/
 
