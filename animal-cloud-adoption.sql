@@ -3,16 +3,16 @@ CREATE SCHEMA `animal-cloud-adoption-db` ;
 USE `animal-cloud-adoption-db`;
 
 CREATE TABLE `animal` (
-	`id` BIGINT,
-    `appearance` VARCHAR(60),
-    `birth_year` INT,
-    `name` VARCHAR(60),
-    `personality` VARCHAR(60),
-    `sex` VARCHAR(10),
-    `sheltered_date` DATETIME,
-    `tуре` VARCHAR(5),
-    `shelter_id` BIGINT,
-    PRIMARY KEY (`id`)
+`id` BIGINT,
+`appearance` VARCHAR(60),
+`birth_year` INT,
+`name` VARCHAR(60),
+`personality` VARCHAR(60),
+`sex` VARCHAR(10),
+`sheltered_date` DATETIME,
+`type` VARCHAR(10),
+`shelter_id` BIGINT,
+PRIMARY KEY (`id`)
 );
 CREATE TABLE `donate_plan` (
 	`id` BIGINT,
@@ -34,7 +34,7 @@ CREATE TABLE `donate_record` (
 );
 CREATE TABLE `member` (
 	`id` BIGINT,
-	`anonymous` BIT(1),
+	`anonymous` TINYINT(1),
     `email` VARCHAR(60),
 	`nick_name` VARCHAR(60),
 	`pass_word` VARCHAR(60),
