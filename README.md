@@ -22,7 +22,7 @@ yarn add axios jquery
 yarn start
 ```
 
-## Final Project
+## Final Project - Frontend
 https://github.com/angel870326/animal-cloud-adoption
 
 ### Create project
@@ -45,7 +45,6 @@ Reference:
 1. Mui: https://v4.mui.com/getting-started/installation/
 2. react-countup: https://www.npmjs.com/package/react-countup
 3. react-countup with next 13 issue fixed (@AndjelaRis): https://github.com/glennreyes/react-countup/issues/805
-
 
 ### Add devDependencies
 ```
@@ -72,9 +71,12 @@ yarn add styled-components
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
 ```
+
 ---
 
-### Backend
+## Final Project - Backend
+
+### Backend Setup
 #### 1. Install Homebrew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -96,7 +98,16 @@ brew install mysql mycli
 #### 3. Install MySQL Workbench (8.0.33)
 https://dev.mysql.com/downloads/workbench/
 
-#### 4. Create Database from CSV Files
+#### 4. Install Java OpenJDK
+Install Java OpenJDK 17.0.7 (https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17)
+
+#### 5. Install Maven
+```
+brew install maven
+```
+
+
+### Create Database from CSV Files
 * **In Terminal:**
   ```
   brew services start mysql
@@ -110,8 +121,15 @@ https://dev.mysql.com/downloads/workbench/
       <img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
     * Step 3: Create Tables<br>
       ```
-     
-      ```
+
+#### 5. Run
+
+Backend Setup
+
+
+
+**In Terminal:**
+
 
 
 
