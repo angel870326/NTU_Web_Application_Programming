@@ -102,13 +102,13 @@ https://dev.mysql.com/downloads/workbench/
   brew services start mysql
   ```
 * **In MySQL Workbench:**<br>
-    * Step 0: Build Connection (local instance 3306 usually built)
-    * Step 1: Edit Connection
+    * Step 0: Build Connection (local instance 3306 usually built)<br>
+    * Step 1: Edit Connection<br>
       Click on the Advanced tab and provide an extra line in the Others text input: ```OPT_LOCAL_INFILE=1```
       <img width="903" alt="mysql-connection" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/5df3cd8b-769c-4b9e-bd56-893664860530">
-    * Step 2: Create Database
+    * Step 2: Create Database<br>
       <img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
-    * Step 3: Create Tables
+    * Step 3: Create Tables<br>
       ```
      
       ```
