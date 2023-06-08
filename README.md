@@ -126,7 +126,7 @@ brew services start mysql
 ```
 open ./backend/src/main/resources/application.properties
 ```
-#### 2. Fill in your host, port, db name, username, password for database
+#### 2. Fill in your host, port, db name, username and password for database
 Modify
 ```
 spring.datasource.url=jdbc:mysql://${db_host}:${db.port}/${db_db_name}
