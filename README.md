@@ -108,24 +108,49 @@ brew install maven
 
 
 ### Create Database from CSV Files
-* **In Terminal:**
-  ```
-  brew services start mysql
-  ```
-* **In MySQL Workbench:**<br>
-    * Step 0: Build Connection (local instance 3306 usually built)<br>
-    * Step 1: Edit Connection<br>
-      Click on the Advanced tab and provide an extra line in the Others text input: ```OPT_LOCAL_INFILE=1```
-      <img width="903" alt="mysql-connection" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/5df3cd8b-769c-4b9e-bd56-893664860530">
-    * Step 2: Create Database<br>
-      <img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
-    * Step 3: Create Tables<br>
-      ```
+#### In Terminal:
+```
+brew services start mysql
+```
+#### In MySQL Workbench:
+* Step 0: Build Connection (local instance 3306 usually built)<br>
+* Step 1: Edit Connection<br>
+  Click on the Advanced tab and provide an extra line in the Others text input: ```OPT_LOCAL_INFILE=1```
+  <img width="903" alt="mysql-connection" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/5df3cd8b-769c-4b9e-bd56-893664860530">
+* Step 2: Create Database & Tables<br>
+  [Execute SQL Commands](https://github.com/angel870326/NTU_Web_Application_Programming/blob/main/animal-cloud-adoption.sql)
 
-#### 5. Run
 
-Backend Setup
-
+### Account Setup (in animal-cloud-adoption)
+#### 1. Open application.properties (in terminal)
+```
+open ./backend/src/main/resources/application.properties
+```
+#### 2. Fill in your host, port, db name, username, password for database
+Modify
+```
+spring.datasource.url=jdbc:mysql://${db_host}:${db.port}/${db_db_name}
+spring.datasource.username=${db_username}
+spring.datasource.password=${db_password}
+```
+To
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/animal-cloud-adoption-db
+spring.datasource.username=root
+```
+#### 3. Fill in your port, username and password for database mail
+Modify
+```
+spring.mail.port=${mail_port}
+spring.mail.username=${mail_username}
+spring.mail.password=${mail_password}
+```
+to
+```
+spring.mail.port=3306
+spring.mail.username=xxxx@gmail.com
+spring.mail.password=xxxx
+```
 
 
 **In Terminal:**
