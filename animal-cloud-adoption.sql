@@ -1,3 +1,4 @@
+DROP DATABASE `animal-cloud-adoption-db`;
 CREATE SCHEMA `animal-cloud-adoption-db` ;
 USE `animal-cloud-adoption-db`;
 
@@ -9,7 +10,7 @@ CREATE TABLE `animal` (
     `personality` VARCHAR(60),
     `sex` VARCHAR(10),
     `sheltered_date` DATETIME,
-    `tуре` VARCHAR(10),
+    `tуре` VARCHAR(5),
     `shelter_id` BIGINT,
     PRIMARY KEY (`id`)
 );
@@ -33,7 +34,7 @@ CREATE TABLE `donate_record` (
 );
 CREATE TABLE `member` (
 	`id` BIGINT,
-	`anonymous` BIT,
+	`anonymous` BIT(1),
     `email` VARCHAR(60),
 	`nick_name` VARCHAR(60),
 	`pass_word` VARCHAR(60),
