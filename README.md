@@ -80,69 +80,67 @@ yarn add -D eslint-plugin-jest
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 * Check if installed successfully:
-```
-brew -v
-```
+  ```
+  brew -v
+  ```
 
 #### 2. Install MySQL Server (8.0.33)
 ```
 brew install mysql mycli
 ```
 * Check MySQL version before installing: 
-```
-brew info mysql
-```
+  ```
+  brew info mysql
+  ```
 
 #### 3. Install MySQL Workbench (8.0.33)
 https://dev.mysql.com/downloads/workbench/
 
 #### 4. Create Database from CSV Files
-* In Terminal:
-```
-brew services start mysql
-```
-* In MySQL Workbench:<br>
-Step 1: Create Database
-<img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
+* **In Terminal:**
+  ```
+  brew services start mysql
+  ```
+* **In MySQL Workbench:**<br>
+    * Step 1: Create Database
+      <img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
+    * Step 2: Create Tables
+      ```
+      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/animal.csv'
+      INTO TABLE animal
+      FIELDS TERMINATED BY ','
+      ENCLOSED BY '"'
+      LINES TERMINATED BY '\n'
+      IGNORE 1 ROWS;
 
+      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_plan.csv'
+      INTO TABLE donate_plan
+      FIELDS TERMINATED BY ','
+      ENCLOSED BY '"'
+      LINES TERMINATED BY '\n'
+      IGNORE 1 ROWS;
 
+      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_record.csv'
+      INTO TABLE donate_record
+      FIELDS TERMINATED BY ','
+      ENCLOSED BY '"'
+      LINES TERMINATED BY '\n'
+      IGNORE 1 ROWS;
 
-```
-LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/animal.csv'
-INTO TABLE animal
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/member.csv'
+      INTO TABLE member
+      FIELDS TERMINATED BY ','
+      ENCLOSED BY '"'
+      LINES TERMINATED BY '\n'
+      IGNORE 1 ROWS;
 
-LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_plan.csv'
-INTO TABLE donate_plan
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_record.csv'
-INTO TABLE donate_record
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/member.csv'
-INTO TABLE member
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/shelter.csv'
-INTO TABLE shelter
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-```
+      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/shelter.csv'
+      INTO TABLE shelter
+      FIELDS TERMINATED BY ','
+      ENCLOSED BY '"'
+      LINES TERMINATED BY '\n'
+      IGNORE 1 ROWS;
+      ```
 
 
 
