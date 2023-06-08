@@ -73,6 +73,31 @@ yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
 ```
 
+### Backend
+1. Install Homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Check if installed successfully:
+```
+brew -v
+```
+
+2. Install MySQL (8.0.33)
+```
+brew install mysql mycli
+```
+Check MySQL version before installing: 
+```
+brew info mysql
+```
+
+
+
+Reference:
+1. Install MySQL for macOS: https://myapollo.com.tw/blog/install-mysql-using-homebrew/
+2. Homebrew: https://brew.sh/
+
 
 
 
