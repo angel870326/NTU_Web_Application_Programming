@@ -149,8 +149,8 @@ spring.mail.password=${mail_password}
 ```
 to
 ```
-spring.mail.port=3306
-spring.mail.username=xxxx@gmail.com
+spring.mail.port=587
+spring.mail.username=xxxx@g.ntu.edu.tw
 spring.mail.password=xxxx
 ```
 
@@ -163,6 +163,7 @@ Reference:
 3. How to use MySQL: https://ithelp.ithome.com.tw/articles/10247808
 4. Import csv file into MySQL: https://blog.n8n.io/import-csv-into-mysql/
 5. Fix MySQL error 3948: https://blog.csdn.net/m0_52952956/article/details/125012666
+6. Spring mail authentication error: https://stackoverflow.com/questions/18585682/spring-mail-authentication-error
 
 
 
