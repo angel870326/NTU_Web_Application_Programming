@@ -83,7 +83,7 @@ yarn add -D eslint-plugin-jest
 brew -v
 ```
 
-**2. Install MySQL Server (8.0.33)**
+#### 2. Install MySQL Server (8.0.33)
 ```
 brew install mysql mycli
 ```
@@ -92,11 +92,10 @@ brew install mysql mycli
 brew info mysql
 ```
 
-**3. Install MySQL Workbench (8.0.33)**
-<br>
+#### 3. Install MySQL Workbench (8.0.33)
 https://dev.mysql.com/downloads/workbench/
 
-**4. Create Database from CSV Files**
+#### 4. Create Database from CSV Files
 * In Terminal:
 ```
 brew services start mysql
