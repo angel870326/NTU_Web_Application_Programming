@@ -22,6 +22,8 @@ yarn add axios jquery
 yarn start
 ```
 
+---
+
 ## Final Project - Frontend
 https://github.com/angel870326/animal-cloud-adoption
 
@@ -138,7 +140,7 @@ To
 spring.datasource.url=jdbc:mysql://localhost:3306/animal-cloud-adoption-db
 spring.datasource.username=root
 ```
-#### 3. Fill in your port, username and password for database mail
+#### 3. Fill in your port, username and password for mail
 Modify
 ```
 spring.mail.port=${mail_port}
@@ -151,10 +153,6 @@ spring.mail.port=3306
 spring.mail.username=xxxx@gmail.com
 spring.mail.password=xxxx
 ```
-
-
-**In Terminal:**
-
 
 
 
