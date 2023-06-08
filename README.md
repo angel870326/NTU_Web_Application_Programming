@@ -72,6 +72,7 @@ yarn add styled-components
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jest
 ```
+---
 
 ### Backend
 #### 1. Install Homebrew
