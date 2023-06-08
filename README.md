@@ -98,8 +98,8 @@ brew install mysql mycli
 #### 3. Install MySQL Workbench (8.0.33)
 https://dev.mysql.com/downloads/workbench/
 
-#### 4. Install Java OpenJDK
-Install Java OpenJDK 17.0.7 (https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17)
+#### 4. Install Java OpenJDK (17.0.7)
+https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17
 
 #### 5. Install Maven
 ```
