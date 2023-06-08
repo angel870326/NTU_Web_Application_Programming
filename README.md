@@ -102,47 +102,16 @@ https://dev.mysql.com/downloads/workbench/
   brew services start mysql
   ```
 * **In MySQL Workbench:**<br>
-    * Step 1: Create Database
+    * Step 0: Build Connection (local instance 3306 usually built)
+    * Step 1: Edit Connection
+      Click on the Advanced tab and provide an extra line in the Others text input: ```OPT_LOCAL_INFILE=1```
+      <img width="903" alt="mysql-connection" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/5df3cd8b-769c-4b9e-bd56-893664860530">
+    * Step 2: Create Database
       <img width="1200" alt="mysql-database" src="https://github.com/angel870326/NTU_Web_Application_Programming/assets/44830635/06e8e678-523b-464a-9a0a-830ac36a2f58">
-    * Step 2: Create Tables
+    * Step 3: Create Tables
       ```
-      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/animal.csv'
-      INTO TABLE animal
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\n'
-      IGNORE 1 ROWS;
-
-      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_plan.csv'
-      INTO TABLE donate_plan
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\n'
-      IGNORE 1 ROWS;
-
-      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/donate_record.csv'
-      INTO TABLE donate_record
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\n'
-      IGNORE 1 ROWS;
-
-      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/member.csv'
-      INTO TABLE member
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\n'
-      IGNORE 1 ROWS;
-
-      LOAD DATA INFILE '/Users/angelwang/Desktop/Github/animal-cloud-adoption/backend/src/main/resources/database_csv/shelter.csv'
-      INTO TABLE shelter
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\n'
-      IGNORE 1 ROWS;
+     
       ```
-
-
 
 
 
@@ -151,6 +120,9 @@ Reference:
 1. Install MySQL for macOS: https://myapollo.com.tw/blog/install-mysql-using-homebrew/
 2. Homebrew: https://brew.sh/
 3. How to use MySQL: https://ithelp.ithome.com.tw/articles/10247808
+4. Import csv file into MySQL: https://blog.n8n.io/import-csv-into-mysql/
+5. Fix MySQL error 3948: https://blog.csdn.net/m0_52952956/article/details/125012666
+
 
 
 
